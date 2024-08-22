@@ -1,0 +1,148 @@
+/* Основной стиль страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dee1e3;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стиль для верхней панели навигации */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e8ebee;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.notification-icon, .settings-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links ul li {
+    margin-right: 20px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+
+.search-bar {
+    flex-grow: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.age {
+    font-size: 12px;
+    color: #666;
+}
+
+.robux-balance {
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+/* Стиль для раздела с кодами */
+.redeem-section {
+    padding: 20px;
+}
+
+.redeem-section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.redeem-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.code-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.redeem-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #393b3d;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.terms-text {
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.terms-text a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.terms-text a:hover {
+    text-decoration: underline;
+}
+
+.additional-info {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.additional-info li {
+    margin-bottom: 10px;
+}
+
+.additional-info li a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.additional-info li a:hover {
+    text-decoration: underline;
+}
